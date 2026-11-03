@@ -21,22 +21,41 @@
           action="https://httpbin.org/post" and test again.
        ========================================================== -->
 
-<form action="#" method="POST">
+<form action="#" method="GET">
     <fieldset>
         <legend>Your Info</legend>
     <p>
         <label for="first">First Name:</label>
-        <input type="text" name="first" id="first" placeholder="Choose your fighter">
+        <input type="text" name="first" id="first" placeholder="Choose your fighter" required>
         <!-- NOTE: Input elements are VOID elements - so they do not include a closing tag-->
     </p>
     <p>
         <label for="last">Last Name:</label>
-        <input type="text" name="last" id="last" placeholder="Choose your fightest">
+        <input type="text" name="last" id="last" placeholder="Choose your fightest" required>
     </p>
-    <p>
-        <label for="notes">Notes:</label>
-        <textarea name="notes" id="notes" rows="5" cols="50"></textarea>
-    </p>
+    </fieldset>
+
+    <!-- drop-down and list box-->
+    <fieldset>
+        <legend>Software and Ports</legend>
+        <p>
+        <label for="os">Operating System</label>
+        <select name="os" id="os">
+            <option value="win11">Windows 11</option>
+            <option value="ubuntu">Linux (Ubuntu)</option>
+            <option value="none">No operating system</option>
+        </select>
+        </p>
+        <p>
+            <label for="ports">Ports needed (hold Ctrl or Command to pick more than one)</label>
+            <select name="ports" id="ports" size="4" multiple>
+                <option value="usbc">USB-C</option>
+                <option value="hdmi">HDMI</option>
+                <option value="displayPort">Display Port</option>
+                <option value="ethernet">Ethernet</option>
+                <option value="thunderbolt">Thunderbolt</option>
+            </select>
+        </p>
     </fieldset>
     <input type="submit">
 </form>

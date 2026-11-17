@@ -5,6 +5,7 @@
    ========================================================== */
 
 /* STEP 2: Universal selector (CSS reset) */
+
 * {
    margin: 0;
    padding: 0;
@@ -13,7 +14,18 @@
 
 /* STEP 3: Element selector - body */
 
+body {
+   border: 4px, darkblue;
+   border-style: groove;
+}
 
+p {
+   border: 2px, rgb(0, 0, 209);
+}
+
+p span {
+   
+}
 /* STEP 4: Multiple selector - headings */
 
 

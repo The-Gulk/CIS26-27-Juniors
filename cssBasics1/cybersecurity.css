@@ -1,0 +1,36 @@
+/* ==========================================================
+   Cybersecurity Basics - External Stylesheet
+   Student Name: Ian Cullen
+   Date: 11/17/26
+   ========================================================== */
+
+/* STEP 2: Universal selector (CSS reset) */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* STEP 3: Element selector - body */
+
+
+/* STEP 4: Multiple selector - headings */
+
+
+/* STEP 5: ID selector - page header */
+
+
+/* STEP 6: More element selectors - paragraphs, lists, tables */
+
+
+/* STEP 7: Class selectors - .card, .tagline, .tip, .warning */
+
+
+/* STEP 8: Descendant selector - links inside the nav */
+
+
+/* STEP 9: Pseudo-class selector - hover effect */
+
+
+/* STEP 10: Footer */
+

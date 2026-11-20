@@ -134,7 +134,7 @@ Look at the HTML: the `<header>` has `id="page-header"`. An **ID selector** star
 
 ## Step 6: More Element Selectors (Layout, Text, Lists, Table)
 
-Now put back some spacing and style the table. Add all of these rules:
+Now put back some spacing and style to the table. Add all of these rules:
 
 ```css
 main {
@@ -322,13 +322,13 @@ Answer these in the comments at the top of your `cybersecurity.css` file:
 
 ## Submission Checklist
 
-- [ ] `cybersecurity.css` is linked in the `<head>` of `cybersecurity.html`
-- [ ] All seven selector types are used (universal, element, class, ID, descendant, pseudo-class, multiple)
-- [ ] Each section of the CSS file has a comment
-- [ ] At least three colors are changed to make the design your own
-- [ ] Your name is in the footer
-- [ ] CSS passes the W3C validator
-- [ ] The page is linked from `index.html` and works on GitHub Pages
-- [ ] Reflection questions are answered in the CSS comments
+- [Y] `cybersecurity.css` is linked in the `<head>` of `cybersecurity.html`
+- [Y] All seven selector types are used (universal, element, class, ID, descendant, pseudo-class, multiple)
+- [Y] Each section of the CSS file has a comment
+- [Y] At least three colors are changed to make the design your own
+- [Y] Your name is in the footer
+- [Y] CSS passes the W3C validator
+- [Y] The page is linked from `index.html` and works on GitHub Pages
+- [Y] Reflection questions are answered in the CSS comments
 
 See `RUBRIC.md` for how this project will be graded.
